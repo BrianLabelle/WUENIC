@@ -1865,7 +1865,7 @@ var $ = global.jQuery;
 
 var dialogHtml = '<div id="ss-connect-dialog" style="display: none;"></div><div id="ss-overlay" class="ss-gray-out" style="display: none;"></div>';
 var countdownContentsHtml = '<label>Reconnect failed. Retrying in <span id="ss-dialog-countdown"></span> seconds...</label> <a id="ss-reconnect-link" href="#" class="ss-dialog-link">Try now</a>';
-var reconnectContentsHtml = '<label>Attempting to reconnect...</label><label> </label>';
+var reconnectContentsHtml = '<label>Attempting to reconnect...</label><label>&nbsp;</label>';
 var disconnectContentsHtml = '<label>Disconnected from the server.</label> <a id="ss-reload-link" href="#" class="ss-dialog-link">Reload</a>';
 
 module.exports = ReconnectUI;
